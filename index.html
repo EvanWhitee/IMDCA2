@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMD CA2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  </body>
+</head>
+<body>
+
+
+    <div class="border">
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <img src="/ProfilePicture.jpg" class="img-fluid rounded-circle" alt="Responsive image">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="box">
+                        <h1 style="font-size: 4rem;">Hi, I'm Evan...</h1>
+                        <h1 style="color: #F3B20C">4th Year Student</h1>
+                        <span class="fs-2">Currently studying a Bachelor's in Computing with IT Management. Eager to learn, motivated to grow my skillset. Passionate about leadership, design, and attention to detail. Currently based in Dublin and open to new opportunities.</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6"> 
+                    <button class="btn m-5" data-bs-toggle="modal" data-bs-target="#modal" style="font-size: 3rem; padding: 10px 10px; background-color:#00340B; color: white; box-shadow: 10px 10px 15px black;">Contact Info</button>
+                    <div class="modal fade modal-lg" id="modal">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1>Contact Information</h1>
+                                    <button class="btn-close" data-bs-dismiss="modal" data-bs-target="#modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul>
+                                        <span><li>Email: X00173057@mytudublin.ie</li></span>
+                                        <span><li>Phone: 083 854 9770</li></span>
+                                        <span><li>LinkedIn: <a href="https://www.linkedin.com/in/whiteevan/">Evan White</a></li></span>
+                                    </ul>
+                                </div>                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col-md-6"> 
+                    <button class="btn m-5" data-bs-toggle="modal" data-bs-target="#modal2" style="font-size: 3rem; padding: 10px 10px; background-color:#00340B; color: white; box-shadow: 10px 10px 15px black;">
+                        Leave a Message
+                    </button>
+                    <div class="modal fade modal-lg" id="modal2">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1>Leave a Message</h1>
+                                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form id="messageForm">
+                                        <div class="mb-3">
+                                            <label for="name" class="form-label">Your Name</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="email" class="form-label">Your Email</label>
+                                            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="message" class="form-label">Your Message</label>
+                                            <textarea class="form-control" id="message" rows="5" placeholder="Type your message here..." required></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-success">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+    <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div class="box">
+                        <h1>Education</h1>
+                        <span class="fs-2">2020-2024&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TU Dublin Tallaght</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <h1>Grades</h1>
+                        <table class="table table-color table-hover table-sm">
+                            <caption>2024 Sem1 Predicted Grades</caption>
+                            <thead>
+                                <tr>
+                                    <th>Subject</th>
+                                    <th>Grade</th>
+                                </tr>
+                            </thead>
+                            <tbody class="table-group-divider">
+                                <tr class="table-color">
+                                    <td class="table-color">Information Management</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>Interactive Media Design</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>DevOps - Continuous Integration</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>Security for the Cloud and IoT</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>Private Cloud Architecture</td>
+                                    <td>A+</td>
+                                </tr>
+                                <tr>
+                                    <td>Enterprise Performance Arch</td>
+                                    <td>A+</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="box">
+                        <h1>Projects</h1>
+                        <select id="Dropdown" class="form-select mb-3">
+                            <option value="project1">Academic Project 2024: Ticketing System</option>
+                            <option value="project2">AWS Project 2024: Parking Application</option>
+                            <option value="project3">2nd Year MQTT Broker: Realtime Luas</option>
+                        </select>
+                        <span class="fs-5" id="Description"></span>
+                    </div>
+                </div>
+             </div>
+        </div>   
+    <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-8">
+                    <div class="box">
+                        <h1>Work Experience</h1>
+                        <h5 style="color: #F3B20C">CSA Intern at AWS</h5>
+                        <span>Spent 7 months, Feb 2024 - Aug 2024, as a Cloud Support Associate Intern at Amazon Web Services in Dublin. Thoroughly enjoyed my time and learnt a vast range of invaluable skills, covering topics such as Networking, Linux, Windows, DMS, Containers, Artificial Intelligence, Machine Learning and much more. Gained insight into how a CSA operates day-to-day and challenged myself to learn and grow. Worked under a team with close supervision. Developed a team project to deal with a current issue and gained appraisal from stakeholders. Passed the AWS Cloud Practitioner exam and received an offer to return after completing my studies.</span>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="box">
+                            <h1>Professional Interests</h1>
+                            <span>Interested in Networking and Architecture Design. Enthuastic about leadership and collaboration. Hoping to develop my career to manage a team.</span>
+                        </div>
+                        <div class="box pt-3">
+                            <h1>Achievements</h1>
+                            <ul>
+                                <span><li>Passed AWS Cloud Practitioner Exam</li></span>
+                                <span><li>Presented Project to AWS Stakeholders</li></span>
+                                <span><li>Received return offer to AWS as a CSE</li></span>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const projectDropdown = document.getElementById('Dropdown');
+        const projectDescription = document.getElementById('Description');
+
+        const projectDescriptions = {
+            project1: "Currently planning and building my 4th year Academic Project. A ticketing system integrated with QR code scanning. The aim of my project is to prompt hotel guests to scan their respective room's QR code to ticket a problem. The goal is to eliminate the middle-man, the receptionist, by immediately notifying hotel maintenance of the issue. The project will be built using AWS services.",
+            project2: "Brief given was to design a system that solves a real-world issue. As a team, we decided that the parking situation for office staff needed to be looked into. At the time of building the project, staff must join a long waiting list in order to receive access to a parking spot. We discovered that parking spot owners were not travelling into the office 5 days of the week, meaning their parking spot was left vacant, yet nobody could use it. As a team, we built an application using AWS services that allows staff members to book parking spots that were offered by existing owners. This system used AWS VPC, Shield, WAF, DynamoDB, Security Groups, Cognito, and many more services.",
+            project3: "In our second year of college we were tasked with creating an MQTT broker messaging system, showcasing how subscribers and publishers worked. Our team of three decided to build an application that showed real-time info on Luas departure and arrival times. A user would subscribe to their topic (Luas stop), and receive real-time information as the Luas crossed different topics."
+        };
+
+        projectDropdown.addEventListener('change', function () {
+            const selectedProject = projectDropdown.value;
+            projectDescription.textContent = projectDescriptions[selectedProject];
+        });
+    </script>
+</body>
+</html>
